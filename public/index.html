@@ -1,1 +1,40 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="icon" href="images/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="A full-stack react e-commerce website clone. Built by Okoye Charles"><title>Amazon Clone</title><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4GRKCM1BDR"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-4GRKCM1BDR")</script><meta name="google-site-verification" content="j1oFozIXC6xcxsupVgDHSAVdQr4kmM3jqQnmdHCY4Rk"><script defer="defer" src="js/main.8ebd5e7c.js"></script><link href="css/main.805bde0b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><footer><p>2022 Amazon Clone.</p><p>Made by <a href="https://okoyecharles.com" rel="noreffer" target="_blank">Okoye Charles</a></p></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="nav-logo">amazon</div>
+    <div class="nav-search">
+      <input type="text" placeholder="Search..." />
+      <button>🔍</button>
+    </div>
+    <div class="nav-options">
+      <span>English</span>
+      <span>Hello, Guest<br><strong>Sign In</strong></span>
+      <span>Returns<br><strong>& Orders</strong></span>
+      <span>Cart</span>
+    </div>
+  </header>
+
+  <section class="banner">
+    <p>We ship over 45 million products around the world</p>
+    <img src="images/banner-illustration.png" alt="Banner" />
+  </section>
+
+  <main class="products" id="products">
+    <!-- JS will inject product cards here -->
+  </main>
+
+  <footer>
+    <p>2022 Amazon Clone.</p>
+    <p>Made by <a href="https://okoyecharles.com" target="_blank" rel="noreferrer">Okoye Charles</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
